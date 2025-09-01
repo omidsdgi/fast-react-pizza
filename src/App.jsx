@@ -4,17 +4,22 @@ import Cart from "./features/cart/Cart.jsx";
 import CreateOrder from "./features/order/CreateOrder.jsx";
 import Order from "./features/order/Order.jsx";
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
+import {AppLayout} from "./ui/AppLayout.jsx";
 
 
 const router=createBrowserRouter([
-    {path: "/", element:<Home/> },
-    {path: "/menu",element:<Menu/>},
-    {path:"/cart",element:<Cart/>},
-    {path:"/order/new",element:<CreateOrder/>},
-    {path:"/order/:orderId",element:<Order/>},
-
-    ]
-)
-export default function App() {
+    {
+        element:<AppLayout/>,
+        children:[
+            {path: "/", element:<Home/> },
+            {path: "/menu",element:<Menu/>},
+            {path:"/cart",element:<Cart/>},
+            {path:"/order/new",element:<CreateOrder/>},
+            {path:"/order/:orderId",element:<Order/>},
+        ],
+    },
+    ]);
+ function App() {
    return <RouterProvider router={router}/>
 }
+export default App
