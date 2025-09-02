@@ -11,7 +11,7 @@ function Menu() {
         ))}
       </ul>
   );
-} 
+}
 
 export async function loader() {
   const menu = await getMenu();
