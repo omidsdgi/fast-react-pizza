@@ -6,9 +6,8 @@ export function AppLayout() {
     return (
         <>
             <Header/>
-
             <main >
-              <Outlet/>
+               <Outlet/>
             </main>
             <CartOverview/>
         </>
