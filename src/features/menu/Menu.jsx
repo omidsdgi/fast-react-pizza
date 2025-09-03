@@ -12,9 +12,9 @@ function Menu() {
       </ul>
   );
 }
+export default Menu;
 
 export async function loader() {
   const menu = await getMenu();
   return menu;
 }
-export default Menu;
