@@ -1,4 +1,5 @@
 import LinkButton from '../../ui/LinkButton.jsx';
+import Button from '../../ui/Button.jsx';
 
 const fakeCart = [
   {
@@ -34,7 +35,9 @@ function Cart() {
       <h2>Your cart, %NAME%</h2>
 
       <div>
-        <LinkButton to="/order/new">Order pizzas</LinkButton>
+        <Button to="/order/new" type="primary">
+          Order pizzas
+        </Button>
         <button>Clear cart</button>
       </div>
     </div>

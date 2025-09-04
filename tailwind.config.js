@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-      "./index.html",
-      "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+const tailwindConfig = {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    fontFamily: {
+      sans: 'Roboto Mono, monospace',
+    },
     extend: {},
   },
   plugins: [],
-}
-
+};
+export default tailwindConfig;
