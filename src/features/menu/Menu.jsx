@@ -2,19 +2,19 @@ import {getMenu} from "../../services/apiRestaurant.js";
 import {useLoaderData} from "react-router";
 import MenuItem from "./MenuItem.jsx";
 
-function Menu() {
-  const menu=useLoaderData()
-  return (
+export async function loader() {
+    return  getMenu();
+}
+
+export default function Menu() {
+  const menu=useLoaderData() ?? [];
+  return(
       <ul>
         {menu.map((pizza) => (
             <MenuItem pizza={pizza} key={pizza.id} />
         ))}
       </ul>
-  );
+  )
 }
-export default Menu;
 
-export async function loader() {
-  const menu = await getMenu();
-  return menu;
-}
+
