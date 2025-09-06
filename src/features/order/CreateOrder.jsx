@@ -4,6 +4,7 @@ import { createOrder } from '../../services/apiRestaurant.js';
 import cart from '../cart/Cart.jsx';
 import order from './Order.jsx';
 import Button from '../../ui/Button.jsx';
+import { useSelector } from 'react-redux';
 
 // https://uibakery.io/regex-library/phone-number
 const isValidPhone = (str) =>
@@ -37,8 +38,9 @@ const fakeCart = [
 
 function CreateOrder() {
   const navigation = useNavigation();
-  const isSubmiting = navigation.state === 'submitting';
+  const isSubmitting = navigation.state === 'submitting';
   const formErrors = useActionData();
+  const username = useSelector((state) => state.user.username);
 
   // const [withPriority, setWithPriority] = useState(false);
   const cart = fakeCart;
@@ -50,7 +52,13 @@ function CreateOrder() {
       <Form method="POST">
         <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-center">
           <label className="sm:basis-40">First Name</label>
-          <input type="text" name="customer" required className="input grow" />
+          <input
+            type="text"
+            name="customer"
+            required
+            className="input grow"
+            defaultValue={username}
+          />
         </div>
 
         <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-center">
@@ -93,8 +101,8 @@ function CreateOrder() {
 
         <div>
           <input type="hidden" name="cart" value={JSON.stringify(cart)} />
-          <Button disabled={isSubmiting} type="primary">
-            {isSubmiting ? 'Placing order...' : 'Order now'}
+          <Button disabled={isSubmitting} type="primary">
+            {isSubmitting ? 'Placing order...' : 'Order now'}
           </Button>
         </div>
       </Form>

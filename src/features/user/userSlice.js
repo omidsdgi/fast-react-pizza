@@ -31,10 +31,10 @@ const userSlice = createSlice({
   name: 'user',
   initialState,
   reducers: {
-    userUpdate: (state, action) => {
+    updateName: (state, action) => {
       state.username = action.payload;
     },
   },
 });
-export const { user } = userSlice.actions;
+export const { updateName } = userSlice.actions;
 export default userSlice.reducer;
