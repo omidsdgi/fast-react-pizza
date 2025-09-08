@@ -6,13 +6,14 @@ import {
   formatDate,
 } from '../../utils/helpers';
 import { getOrder } from '../../services/apiRestaurant.js';
-import { useFetchers, useLoaderData } from 'react-router';
+import { useFetcher, useLoaderData } from 'react-router';
 import OrderItem from './OrderItem.jsx';
 import { useEffect } from 'react';
+import UpdateOrder from './UpdateOrder.jsx';
 
 function Order() {
   const order = useLoaderData();
-  const fetcher = useFetchers();
+  const fetcher = useFetcher();
 
   useEffect(
     function () {
@@ -86,6 +87,7 @@ function Order() {
           To pay on delivery: {formatCurrency(orderPrice + priorityPrice)}
         </p>
       </div>
+      {!priority && <UpdateOrder order={order} />}
     </div>
   );
 }
