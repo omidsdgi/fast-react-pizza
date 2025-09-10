@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Button from '../../ui/Button.jsx';
+import Button from '../../ui/Button';
 import { useDispatch } from 'react-redux';
-import { updateName } from './userSlice.js';
+import { updateName } from './userSlice';
 import { useNavigate } from 'react-router-dom';
 
 function CreateUser() {
@@ -11,6 +11,7 @@ function CreateUser() {
 
   function handleSubmit(e) {
     e.preventDefault();
+
     if (!username) return;
     dispatch(updateName(username));
     navigate('/menu');
@@ -18,7 +19,7 @@ function CreateUser() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <p className="mb-4 text-sm text-stone-700 md:text-lg">
+      <p className="mb-4 text-sm text-stone-600 md:text-base">
         👋 Welcome! Please start by telling us your name:
       </p>
 
