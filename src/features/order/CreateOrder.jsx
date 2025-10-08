@@ -5,7 +5,7 @@ import Button from '../../ui/Button';
 import EmptyCart from '../cart/EmptyCart';
 import { useDispatch, useSelector } from 'react-redux';
 import { clearCart, getCart, getTotalCartPrice } from '../cart/CartSlice.jsx';
-import store from '../../store.jsx';
+import store from '../../store.js';
 import { formatCurrency } from '../../utils/helpers';
 import { fetchAddress } from '../user/userSlice';
 
