@@ -338,16 +338,21 @@ This project is [MIT](LICENSE) licensed.
 ## 📸 Screenshots
 
 ### Homepage
-*[Add screenshot of homepage with username input]*
+
+
 
 ### Menu Page
-*[Add screenshot of pizza menu with items]*
+
+
+
 
 ### Shopping Cart
-*[Add screenshot of cart with multiple items]*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/44c451c5-4aec-4169-b8ff-df8e7f2c16b5" />
+
 
 ### Order Confirmation
-*[Add screenshot of order success page with order ID]*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eb05be0c-a80b-4b1a-9098-3a844c28fb05" />
+
 
 ---
 
@@ -355,7 +360,6 @@ This project is [MIT](LICENSE) licensed.
 
 - **Live Application**: [https://fast-react-pizzas-navy.vercel.app](https://fast-react-pizzas-navy.vercel.app)
 - **Repository**: [https://github.com/omidsdgi/fast-react-pizza](https://github.com/omidsdgi/fast-react-pizza)
-- **Issues**: [Report Bug](https://github.com/omidsdgi/fast-react-pizza/issues)
 
 ---
 
