@@ -306,7 +306,7 @@ Contributions are welcome! Please follow these steps:
 
 - GitHub: [@omidsdgi](https://github.com/omidsdgi)
 - Portfolio: [My Portfolio Link](https://my-portfolio-tau-flame-49.vercel.app)
-- Email: You can reach me via email: [omid69sdgi@gmail.com](mailto:omid69sdgi@gmail.com)
+- <a href="mailto:omid69sdgi@gmail.com">Email:omid69sdgi@gmail.com</a>
 
 ---
 
