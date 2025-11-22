@@ -305,9 +305,8 @@ Contributions are welcome! Please follow these steps:
 **Omid Sadeghi**
 
 - GitHub: [@omidsdgi](https://github.com/omidsdgi)
-- Portfolio: [Your Portfolio Link]
-- LinkedIn: [Your LinkedIn Profile]
-- Email: [Your Email]
+- Portfolio: [Your Portfolio Link](https://my-portfolio-tau-flame-49.vercel.app)
+- Email: [Your Email](omid69sdgi@gmail.com)
 
 ---
 
