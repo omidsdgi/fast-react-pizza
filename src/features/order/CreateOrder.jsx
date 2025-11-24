@@ -1,4 +1,4 @@
-import { Form } from 'react-router-dom';
+import { Form, useNavigation } from 'react-router-dom';
 import { createOrder } from '../../services/apiRestaurant.js';
 import { redirect } from 'react-router';
 
@@ -33,6 +33,9 @@ const fakeCart = [
 ];
 
 function CreateOrder() {
+  const navigation= useNavigation();
+  const isSubmiting= navigation.state === 'submitting';
+
   // const [withPriority, setWithPriority] = useState(false);
   const cart = fakeCart;
 
@@ -73,7 +76,7 @@ function CreateOrder() {
 
         <div>
           <input type="hidden" name="cart" value={JSON.stringify(cart)} />
-          <button>Order now</button>
+          <button disabled={isSubmiting }>{isSubmiting ? 'Placing order ...' : 'Order now'}</button>
         </div>
       </Form>
     </div>
