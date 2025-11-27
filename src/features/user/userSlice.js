@@ -64,14 +64,15 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  username:'Mehraneh lovely'
+  username:'',
+
 }
-const userSlice= createSlice({
-  name:'user',
+const userSlice=createSlice({
+  name: 'user',
   initialState,
-  reducers:{
-    updateName(state, action){
-      state.username=action.payload;
+  reducers: {
+    updateName(state, action) {
+      state.username=action.payload
     }
   }
 })
