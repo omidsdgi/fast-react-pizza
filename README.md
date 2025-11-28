@@ -351,12 +351,12 @@ This project is [MIT](LICENSE) licensed.
 <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/bd6372d6-1460-4a4d-b5f8-e7f120e93ff0" />
 
 
-### Order Page
+### Order Submision
 <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/6c5f3e0e-3d92-42ba-8cb6-91d464029957" />
 
 
 ### Order Confirmation
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eb05be0c-a80b-4b1a-9098-3a844c28fb05" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/9ea784e0-9097-40fc-ac73-df509b04890e" />
 
 
 ---
