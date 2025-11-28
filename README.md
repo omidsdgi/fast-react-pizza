@@ -348,7 +348,11 @@ This project is [MIT](LICENSE) licensed.
 
 
 ### Shopping Cart
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/44c451c5-4aec-4169-b8ff-df8e7f2c16b5" />
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/bd6372d6-1460-4a4d-b5f8-e7f120e93ff0" />
+
+
+### Order Page
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/6c5f3e0e-3d92-42ba-8cb6-91d464029957" />
 
 
 ### Order Confirmation
