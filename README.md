@@ -338,10 +338,12 @@ This project is [MIT](LICENSE) licensed.
 
 ### Homepage
 
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/19c679fb-95f9-4283-80d9-ff8f4374515f" />
 
 
 ### Menu Page
 
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/56de1f46-a2d1-4c41-8a2e-c9d1f97ef07b" />
 
 
 
