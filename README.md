@@ -133,7 +133,7 @@ fast-react-pizza/
 │   │   ├── cart/           # Shopping cart
 │   │   │   ├── Cart.jsx
 │   │   │   ├── CartItem.jsx
-│   │   │   ├── cartSlice.js
+│   │   │   ├── CartSlice.js
 │   │   │   └── CartOverview.jsx
 │   │   ├── menu/           # Pizza menu
 │   │   │   ├── Menu.jsx
